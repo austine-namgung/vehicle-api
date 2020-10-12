@@ -6,6 +6,11 @@ import com.example.vehicle.model.ResultMessage;
 import com.example.vehicle.model.Vehicle;
 import com.example.vehicle.repository.VehicleRepository;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,6 +27,11 @@ import lombok.RequiredArgsConstructor;
 public class VehicleApiController {
     private final VehicleRepository repository;
 
+	@Operation(summary = "차량 정보 전부를 가져온다")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200", description = "차량 정보 전부를 가져온다",
+					content = { @Content(mediaType = "application/json",
+							schema = @Schema(implementation = List.class)) }) })
     @GetMapping()
     public List<Vehicle> searchVehicleList(){
         List<Vehicle> vehicleList = repository.findAll();

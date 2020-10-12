@@ -33,7 +33,7 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		
+
 
 
 		<dependency>
@@ -68,9 +68,15 @@
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>5.2</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.4.1</version>
+		</dependency>
 	</dependencies>
 
-	
+
 	<build>
 		<plugins>
 			<plugin>
