@@ -1,3 +1,6 @@
 GET http://localhost:9001/api/vehicles
 
 ###
+## k8s
+
+GET http://localhost:9720/api/vehicles
