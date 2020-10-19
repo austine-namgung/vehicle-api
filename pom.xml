@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<jib.maven-plugin-version>1.6.1</jib.maven-plugin-version>
 	</properties>
 
 	<dependencies>
@@ -68,7 +69,6 @@
 			<artifactId>logstash-logback-encoder</artifactId>
 			<version>5.2</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
@@ -82,6 +82,25 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+				<version>${jib.maven-plugin-version}</version>
+				<configuration>
+					<to>
+						<credHelper>osxkeychain</credHelper>
+					</to>
+					<from>
+						<image>adoptopenjdk/openjdk8</image>
+						<!--<image>openjdk:8-jre-alpine</image> -->
+					</from>
+					<container>
+						<jvmFlags>
+							<jvmFlag>-Djava.security.egd=file:/dev/./urandom</jvmFlag>
+						</jvmFlags>
+					</container>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

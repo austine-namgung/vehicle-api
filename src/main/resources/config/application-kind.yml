@@ -7,7 +7,7 @@ server:
 
 
 spring:
- profiles: local
+ profiles: kind
 
  datasource:
   driverClassName: com.mysql.cj.jdbc.Driver

@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: vehicle-api-svc
+  namespace: vehicle
+spec:
+  selector:
+    app: vehicle-api
+
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: http
+   # nodePort: 30001
+  #type: NodePort
+
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vehicle-api
+  namespace: vehicle
+  labels:
+    app: vehicle-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vehicle-api
+  template:
+    metadata:
+      labels:
+        app: vehicle-api
+    spec:
+      containers:
+      - name: vehicle-api
+        image: vehicle-api
+        imagePullPolicy: Never
+        ports:
+        - name: http
+          containerPort: 9001
