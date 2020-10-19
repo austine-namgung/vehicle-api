@@ -19,10 +19,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/api/vehicles")
 @RequiredArgsConstructor
+@Slf4j
 public class VehicleApiController {
     private final VehicleRepository repository;
 
@@ -33,7 +35,8 @@ public class VehicleApiController {
 							schema = @Schema(implementation = List.class)) }) })
     @GetMapping()
     public List<Vehicle> searchVehicleList(){
-        List<Vehicle> vehicleList = repository.findAll();
+		List<Vehicle> vehicleList = repository.findAll();
+		log.info("====[DB search]====vehicle-api call ======= ");
         return vehicleList;
     }
 
