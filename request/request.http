@@ -4,3 +4,23 @@ GET http://localhost:9001/api/vehicles
 ## k8s
 
 GET http://localhost:9720/api/vehicles
+
+
+
+###
+
+##local
+GET http://localhost:9001/callme/ping-with-random-error
+
+###
+#lcoal
+GET http://localhost:9001/callme/ping-with-random-delay
+
+
+###
+#k8s
+GET http://vehicle-api.demo.com:9720/test/random-error
+
+###
+#k8s
+GET http://vehicle-api.demo.com:9720/test/random-delay

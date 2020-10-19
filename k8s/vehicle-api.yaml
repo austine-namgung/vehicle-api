@@ -21,19 +21,21 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: vehicle-api
+  name: vehicle-api-v1
   namespace: vehicle
   labels:
     app: vehicle-api
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: vehicle-api
+      version: v1
   template:
     metadata:
       labels:
         app: vehicle-api
+        version: v1
     spec:
       containers:
       - name: vehicle-api
@@ -42,24 +44,38 @@ spec:
         ports:
         - name: http
           containerPort: 9001
-        volumeMounts:   
-        - name: log-volume
-          mountPath: /logs   
-
-      - name: fluent-bit
-        image: fluent/fluent-bit
-        volumeMounts:   
-        - name: log-volume
-          mountPath: /logs   
-        - name: config  
-          mountPath: /fluent-bit/etc/fluent-bit.conf
-          subPath: fluent-bit.conf
-        - name: config
-          mountPath: /fluent-bit/etc/parsers_springboot.conf
-          subPath: parsers_springboot.conf
-      volumes:
-      - name: log-volume
-        emptyDir: {}     
-      - name: config
-        configMap:
-          name: fluent-bit-config
+        env:
+          - name: VERSION
+            value: "v1"
+       
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vehicle-api-v2
+  namespace: vehicle
+  labels:
+    app: vehicle-api    
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vehicle-api
+      version: v2
+  template:
+    metadata:
+      labels:
+        app: vehicle-api
+        version: v2
+    spec:
+      containers:
+      - name: vehicle-api
+        image: vehicle-api
+        imagePullPolicy: Never
+        ports:
+        - name: http
+          containerPort: 9001
+        env:
+          - name: VERSION
+            value: "v2"
+       
