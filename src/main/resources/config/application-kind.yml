@@ -24,9 +24,9 @@ spring:
           prepStmtCacheSqlLimit: 2048
           useServerPrepStmts: true
 
-  jpa:
-    hibernate:
-        ddl-auto: update
+  # jpa:
+  #   hibernate:
+  #       ddl-auto: update
 
 springdoc:
   version: '0.0.1'
