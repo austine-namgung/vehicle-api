@@ -1,0 +1,177 @@
+2020-10-21 11:39:14,311 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-21 11:39:14,339 INFO o.a.j.JMeter: Loading user properties from: /Users/blackstar/dev/download/jmeter/apache-jmeter-5.3/bin/user.properties
+2020-10-21 11:39:14,340 INFO o.a.j.JMeter: Loading system properties from: /Users/blackstar/dev/download/jmeter/apache-jmeter-5.3/bin/system.properties
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: Version 5.3
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: java.version=11.0.8
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: os.arch=x86_64
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: os.version=10.15.5
+2020-10-21 11:39:14,341 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-21 11:39:14,342 INFO o.a.j.JMeter: java.awt.headless=null
+2020-10-21 11:39:14,342 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-10-21 11:39:14,342 INFO o.a.j.JMeter: Available Processors =16
+2020-10-21 11:39:14,351 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-21 11:39:14,351 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-21 11:39:14,351 INFO o.a.j.JMeter: JMeterHome=/Users/blackstar/dev/download/jmeter/apache-jmeter-5.3
+2020-10-21 11:39:14,351 INFO o.a.j.JMeter: user.dir  =/Users/blackstar/dev/workspace/vscode/project-work/hyundai/apps/vehicle-api
+2020-10-21 11:39:14,351 INFO o.a.j.JMeter: PWD       =/Users/blackstar/dev/workspace/vscode/project-work/hyundai/apps/vehicle-api
+2020-10-21 11:39:14,364 INFO o.a.j.JMeter: IP: 218.38.137.27 Name: blackstarui-MacBookPro.local FullName: 218.38.137.27
+2020-10-21 11:39:14,808 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-10-21 11:39:16,451 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-10-21 11:39:37,052 INFO o.a.j.s.FileServer: Default base='/Users/blackstar/dev/workspace/vscode/project-work/hyundai/apps/vehicle-api'
+2020-10-21 11:39:37,054 INFO o.a.j.g.a.Load: Loading file: /Users/blackstar/test/vehicle-test/jmeter.jmx
+2020-10-21 11:39:37,055 INFO o.a.j.s.FileServer: Set new base='/Users/blackstar/test/vehicle-test'
+2020-10-21 11:39:37,185 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-21 11:39:37,199 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-21 11:39:37,201 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-21 11:39:37,202 INFO o.a.j.s.SaveService: Loading file: /Users/blackstar/test/vehicle-test/jmeter.jmx
+2020-10-21 11:39:37,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-21 11:39:37,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-21 11:39:37,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-21 11:39:37,224 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-21 11:39:37,225 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-21 11:39:37,225 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-21 11:39:37,309 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-21 11:39:37,309 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-21 11:39:37,310 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-21 11:39:37,310 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-21 11:39:37,449 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2020-10-21 11:39:37,553 INFO o.a.j.s.FileServer: Set new base='/Users/blackstar/test/vehicle-test'
+2020-10-21 11:42:27,752 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-21 11:42:27,754 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-21 11:42:27,754 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-21 11:42:27,755 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-21 11:42:27,755 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-21 11:42:27,974 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2020-10-21 11:42:27,997 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : vehicle-fe-test
+2020-10-21 11:42:27,997 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group vehicle-fe-test.
+2020-10-21 11:42:27,997 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-21 11:42:27,997 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=10 delayedStart=false
+2020-10-21 11:42:28,001 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-1
+2020-10-21 11:42:28,004 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-21 11:42:28,004 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-21 11:42:28,016 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = blackstarui-MacBookPro.local
+2020-10-21 11:42:28,024 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-10-21 11:42:29,003 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-2
+2020-10-21 11:42:29,533 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-1
+2020-10-21 11:42:29,533 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-1
+2020-10-21 11:42:29,999 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-3
+2020-10-21 11:42:30,031 INFO o.a.j.r.Summariser: Generate Summary Results +     58 in 00:00:02 =   28.2/s Avg:    42 Min:    26 Max:   203 Err:     0 (0.00%) Active: 2 Started: 3 Finished: 1
+2020-10-21 11:42:30,095 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-2
+2020-10-21 11:42:30,095 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-2
+2020-10-21 11:42:30,840 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-3
+2020-10-21 11:42:30,841 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-3
+2020-10-21 11:42:31,003 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-4
+2020-10-21 11:42:31,797 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-4
+2020-10-21 11:42:31,797 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-4
+2020-10-21 11:42:32,002 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-5
+2020-10-21 11:42:32,733 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-5
+2020-10-21 11:42:32,734 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-5
+2020-10-21 11:42:33,003 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-6
+2020-10-21 11:42:33,763 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-6
+2020-10-21 11:42:33,763 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-6
+2020-10-21 11:42:34,003 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-7
+2020-10-21 11:42:34,720 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-7
+2020-10-21 11:42:34,720 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-7
+2020-10-21 11:42:35,003 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-8
+2020-10-21 11:42:35,711 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-8
+2020-10-21 11:42:35,711 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-8
+2020-10-21 11:42:35,999 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-9
+2020-10-21 11:42:36,714 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-9
+2020-10-21 11:42:36,714 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-9
+2020-10-21 11:42:36,998 INFO o.a.j.t.JMeterThread: Thread started: vehicle-fe-test 1-10
+2020-10-21 11:42:37,736 INFO o.a.j.t.JMeterThread: Thread is done: vehicle-fe-test 1-10
+2020-10-21 11:42:37,736 INFO o.a.j.t.JMeterThread: Thread finished: vehicle-fe-test 1-10
+2020-10-21 11:42:37,736 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-21 11:42:37,736 INFO o.a.j.r.Summariser: Generate Summary Results +    242 in 00:00:08 =   31.4/s Avg:    24 Min:    20 Max:    41 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+2020-10-21 11:42:37,737 INFO o.a.j.r.Summariser: Generate Summary Results =    300 in 00:00:10 =   30.7/s Avg:    28 Min:    20 Max:   203 Err:     0 (0.00%)
+2020-10-21 11:42:37,737 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2020-10-21 14:51:26,792 ERROR o.a.j.JMeter: Uncaught exception in thread Thread[AWT-EventQueue-0,6,main]
+java.lang.NullPointerException: null
+	at sun.java2d.pipe.AlphaColorPipe.renderPathTile(AlphaColorPipe.java:55) ~[?:?]
+	at sun.java2d.pipe.AAShapePipe.renderTiles(AAShapePipe.java:201) ~[?:?]
+	at sun.java2d.pipe.AAShapePipe.renderPath(AAShapePipe.java:149) ~[?:?]
+	at sun.java2d.pipe.AAShapePipe.fill(AAShapePipe.java:82) ~[?:?]
+	at sun.java2d.pipe.PixelToParallelogramConverter.fill(PixelToParallelogramConverter.java:164) ~[?:?]
+	at sun.java2d.pipe.ValidatePipe.fill(ValidatePipe.java:160) ~[?:?]
+	at sun.java2d.SunGraphics2D.fill(SunGraphics2D.java:2528) ~[?:?]
+	at com.kitfox.svg.ShapeElement.renderShape(ShapeElement.java:330) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.Rect.render(Rect.java:208) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.Group.render(Group.java:205) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.Group.render(Group.java:205) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.SVGRoot.render(SVGRoot.java:335) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.SVGRoot.renderToViewport(SVGRoot.java:266) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.SVGDiagram.render(SVGDiagram.java:111) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.app.beans.SVGIcon.paintIcon(SVGIcon.java:322) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.kitfox.svg.app.beans.SVGIcon.paintIcon(SVGIcon.java:213) ~[svgSalamander-1.1.2.1.jar:?]
+	at com.github.weisj.darklaf.icons.DarkSVGIcon.paintIcon(DarkSVGIcon.java:112) ~[darklaf-property-loader-2.1.1.jar:2.1.1]
+	at com.github.weisj.darklaf.icons.ThemedSVGIcon.paintIcon(ThemedSVGIcon.java:45) ~[darklaf-property-loader-2.1.1.jar:2.1.1]
+	at com.github.weisj.darklaf.icons.DarkSVGIcon.paintIcon(DarkSVGIcon.java:87) ~[darklaf-property-loader-2.1.1.jar:2.1.1]
+	at com.github.weisj.darklaf.icons.StateIcon.paintIcon(StateIcon.java:74) ~[darklaf-property-loader-2.1.1.jar:2.1.1]
+	at com.github.weisj.darklaf.ui.togglebutton.radiobutton.DarkRadioButtonUI.paint(DarkRadioButtonUI.java:148) ~[darklaf-core-2.1.1.jar:2.1.1]
+	at javax.swing.plaf.ComponentUI.update(ComponentUI.java:161) ~[?:?]
+	at javax.swing.JComponent.paintComponent(JComponent.java:797) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1074) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JViewport.paint(JViewport.java:737) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1024) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JSplitPane.paintChildren(JSplitPane.java:1024) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1083) ~[?:?]
+	at javax.swing.JLayeredPane.paint(JLayeredPane.java:590) ~[?:?]
+	at javax.swing.JComponent.paintChildren(JComponent.java:907) ~[?:?]
+	at javax.swing.JComponent.paintToOffscreen(JComponent.java:5262) ~[?:?]
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBufferedImpl(RepaintManager.java:1643) ~[?:?]
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(RepaintManager.java:1618) ~[?:?]
+	at javax.swing.RepaintManager$PaintManager.paint(RepaintManager.java:1556) ~[?:?]
+	at javax.swing.RepaintManager.paint(RepaintManager.java:1323) ~[?:?]
+	at javax.swing.JComponent.paint(JComponent.java:1060) ~[?:?]
+	at java.awt.GraphicsCallback$PaintCallback.run(GraphicsCallback.java:39) ~[?:?]
+	at sun.awt.SunGraphicsCallback.runOneComponent(SunGraphicsCallback.java:78) ~[?:?]
+	at sun.awt.SunGraphicsCallback.runComponents(SunGraphicsCallback.java:115) ~[?:?]
+	at java.awt.Container.paint(Container.java:2002) ~[?:?]
+	at java.awt.Window.paint(Window.java:3940) ~[?:?]
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:876) ~[?:?]
+	at javax.swing.RepaintManager$4.run(RepaintManager.java:848) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:848) ~[?:?]
+	at javax.swing.RepaintManager.paintDirtyRegions(RepaintManager.java:823) ~[?:?]
+	at javax.swing.RepaintManager.prePaintDirtyRegions(RepaintManager.java:772) ~[?:?]
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1890) ~[?:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
