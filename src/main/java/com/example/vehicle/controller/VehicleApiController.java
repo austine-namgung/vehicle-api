@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 public class VehicleApiController {
     private final VehicleRepository repository;
 
-    @Operation(summary = "차량 정보 전부를 가져온다")
+    @Operation(summary = "차량 정보 전부를 가져온다!!!!!!!")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "차량 정보 전부를 가져온다",
 					content = { @Content(mediaType = "application/json",
