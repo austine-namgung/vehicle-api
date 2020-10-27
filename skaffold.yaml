@@ -38,4 +38,9 @@ profiles:
       kubectl:
        manifests:
          - k8s/*.yaml
-
+portForward:
+- resourceType: deployment
+  resourceName: vehicle-api
+  namespace: vehicle
+  port: 9001
+  localPort: 9001
