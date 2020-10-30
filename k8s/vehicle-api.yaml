@@ -7,14 +7,14 @@ metadata:
 spec:
   selector:
     app: vehicle-api
-  
+
   ports:
   - protocol: TCP
-    port: 8080 
+    port: 8080
     targetPort: http
    # nodePort: 30001
   #type: NodePort
-  
+
 
 
 ---
@@ -42,16 +42,16 @@ spec:
         ports:
         - name: http
           containerPort: 9001
-        volumeMounts:   
+        volumeMounts:
         - name: log-volume
-          mountPath: /logs   
+          mountPath: /logs
 
       - name: fluent-bit
         image: fluent/fluent-bit
-        volumeMounts:   
+        volumeMounts:
         - name: log-volume
-          mountPath: /logs   
-        - name: config  
+          mountPath: /logs
+        - name: config
           mountPath: /fluent-bit/etc/fluent-bit.conf
           subPath: fluent-bit.conf
         - name: config
@@ -59,7 +59,7 @@ spec:
           subPath: parsers_springboot.conf
       volumes:
       - name: log-volume
-        emptyDir: {}     
+        emptyDir: {}
       - name: config
         configMap:
           name: fluent-bit-config
